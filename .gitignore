@@ -5,6 +5,10 @@ node_modules/
 logs/
 *.log
 
+# Test directories
+test-ledger/
+test-logs/
+
 # Dependency directories
 pnpm-lock.yaml
 

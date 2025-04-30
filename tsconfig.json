@@ -12,14 +12,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "baseUrl": "./",
-    "paths": {
-      "@components/*": ["src/components/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@styles/*": ["src/styles/*"],
-      "@utils/*": ["src/utils/*"],
-      "@types/*": ["src/types/*"]
-    }
   },
   "include": ["src"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "types": ["node"],
+      "verbatimModuleSyntax": false
+    }
+  },
 }

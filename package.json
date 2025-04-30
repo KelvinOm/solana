@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "vite build",
-    "start": "vite --open"
+    "start": "vite --open",
+    "test": "pnpm ts-node ./src/tests/SolanaService.test.ts"
   },
   "keywords": [],
   "author": " <valera@appsmith.com>",
   "license": "ISC",
   "packageManager": "pnpm@10.7.0",
   "dependencies": {
+    "@solana/web3.js": "^1.98.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "vite": "^6.3.4"
