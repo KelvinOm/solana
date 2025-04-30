@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+pnpm-lock.yaml
+
+# Build output
+dist/
+
+# Editor settings
+.vscode/
+
+# System files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Miscellaneous
+*.swp
+*.swo
+*.tmp
+*.bak
